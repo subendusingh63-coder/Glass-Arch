@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Custom Styles */
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: #0f0f0f;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Reusable utility */
+.container {
+  @apply mx-auto px-4;
+}
