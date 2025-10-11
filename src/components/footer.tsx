@@ -1,1 +1,7 @@
-export default function Footer(){ return <footer className="p-6 bg-gray-100 text-center">© Glass Arch</footer> }
+export default function Footer() {
+  return (
+    <footer className="w-full py-6 mt-10 border-t bg-background text-center text-muted-foreground text-sm">
+      <p>© {new Date().getFullYear()} Glass Arch. Built by We2Variety.</p>
+    </footer>
+  );
+}
